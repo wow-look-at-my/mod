@@ -12,9 +12,9 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/mod/internal/lazyregexp"
-	"golang.org/x/mod/module"
-	"golang.org/x/mod/sumdb/tlog"
+	"github.com/wow-look-at-my/mod/internal/lazyregexp"
+	"github.com/wow-look-at-my/mod/module"
+	"github.com/wow-look-at-my/mod/sumdb/tlog"
 )
 
 // A ServerOps provides the external operations

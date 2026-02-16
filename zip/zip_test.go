@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/mod/module"
-	"golang.org/x/mod/sumdb/dirhash"
-	modzip "golang.org/x/mod/zip"
+	"github.com/wow-look-at-my/mod/module"
+	"github.com/wow-look-at-my/mod/sumdb/dirhash"
+	modzip "github.com/wow-look-at-my/mod/zip"
 	"golang.org/x/tools/txtar"
 )
 

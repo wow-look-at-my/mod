@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/mod/module"
+	"github.com/wow-look-at-my/mod/module"
 )
 
 var addRequireTests = []struct {
