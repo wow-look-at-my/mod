@@ -1,4 +1,4 @@
-module golang.org/x/mod
+module github.com/wow-look-at-my/mod
 
 go 1.25.0
 

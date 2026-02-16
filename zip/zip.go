@@ -10,13 +10,13 @@
 //
 // • All file paths within a zip file must start with "<module>@<version>/",
 // where "<module>" is the module path and "<version>" is the version.
-// The module path must be valid (see [golang.org/x/mod/module.CheckPath]).
+// The module path must be valid (see [github.com/wow-look-at-my/mod/module.CheckPath]).
 // The version must be valid and canonical (see
-// [golang.org/x/mod/module.CanonicalVersion]). The path must have a major
+// [github.com/wow-look-at-my/mod/module.CanonicalVersion]). The path must have a major
 // version suffix consistent with the version (see
-// [golang.org/x/mod/module.Check]). The part of the file path after the
+// [github.com/wow-look-at-my/mod/module.Check]). The part of the file path after the
 // "<module>@<version>/" prefix must be valid (see
-// [golang.org/x/mod/module.CheckFilePath]).
+// [github.com/wow-look-at-my/mod/module.CheckFilePath]).
 //
 // • No two file paths may be equal under Unicode case-folding (see
 // [strings.EqualFold]).
@@ -42,7 +42,7 @@
 // • Symbolic links and other irregular files are not allowed.
 //
 // Note that this package does not provide hashing functionality. See
-// [golang.org/x/mod/sumdb/dirhash].
+// [github.com/wow-look-at-my/mod/sumdb/dirhash].
 package zip
 
 import (
@@ -61,8 +61,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/mod/modfile"
-	"golang.org/x/mod/module"
+	"github.com/wow-look-at-my/mod/modfile"
+	"github.com/wow-look-at-my/mod/module"
 )
 
 const (

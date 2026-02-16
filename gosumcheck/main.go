@@ -42,7 +42,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/mod/sumdb"
+	"github.com/wow-look-at-my/mod/sumdb"
 )
 
 func usage() {

@@ -29,9 +29,9 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/mod/internal/lazyregexp"
-	"golang.org/x/mod/module"
-	"golang.org/x/mod/semver"
+	"github.com/wow-look-at-my/mod/internal/lazyregexp"
+	"github.com/wow-look-at-my/mod/module"
+	"github.com/wow-look-at-my/mod/semver"
 )
 
 // A File is the parsed, interpreted form of a go.mod file.

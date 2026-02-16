@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"golang.org/x/mod/module"
+	"github.com/wow-look-at-my/mod/module"
 )
 
 // A SumFile is the parsed, interpreted form of a go.sum file.

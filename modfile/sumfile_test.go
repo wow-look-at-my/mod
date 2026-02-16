@@ -7,7 +7,7 @@ package modfile
 import (
 	"testing"
 
-	"golang.org/x/mod/module"
+	"github.com/wow-look-at-my/mod/module"
 )
 
 var parseSumTests = []struct {
